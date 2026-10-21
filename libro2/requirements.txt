@@ -1,0 +1,24 @@
+# Serie Ciencia de Datos · Tomo 2 — Herramientas Python para Data Science
+# Versiones exactas con las que se verificó el libro (octubre de 2026).
+#
+# Para instalar el material en su propio equipo, con Python 3.13:
+#     pip install -r requirements.txt
+# En Google Colab no hace falta: la primera celda de cada cuaderno instala lo necesario.
+#
+# Bibliotecas del libro
+numpy==2.1.3
+pandas==2.3.3
+matplotlib==3.10.0
+seaborn==0.13.2
+ydata-profiling==4.18.4        # Capítulo 6 y ejercicio Ex-L2-C6-01
+# Las necesita el código de algunas secciones y ejercicios
+scipy==1.16.3                  # Capítulo 5, sección 5.6 (Pearson y Spearman)
+scikit-learn==1.6.1            # Ejercicio Ex-L2-C6-03 (conjunto de datos Wine)
+openpyxl==3.1.5                # Sección 3.8, to_excel()
+pyarrow==23.0.1                # Sección 3.8, to_parquet()
+ipywidgets==7.7.1              # Evita el aviso «IProgress not found» de ydata-profiling en Jupyter
+# ydata-profiling 4.18.4 usa pkg_resources, que setuptools retiró en la versión 82:
+# con setuptools 82 o posterior (o sin setuptools, como en un entorno virtual nuevo)
+# falla al importarse con «No module named 'pkg_resources'». Se fija por debajo de la 81,
+# en la serie de la versión con la que se verificó el libro (80.10.2).
+setuptools<81

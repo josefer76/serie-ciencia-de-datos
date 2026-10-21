@@ -28,6 +28,35 @@ existen para mantener la correspondencia con el libro.
 Ejecute las celdas en orden: algunas dependen de variables definidas antes. Las celdas
 que usan `input()` esperan que usted escriba un valor.
 
+## Tomo 2 — Herramientas Python para Data Science: NumPy, Pandas y Visualización
+
+Un cuaderno por capítulo, con las soluciones de los ejercicios de ese capítulo. Se abren en Google Colab con un clic, sin instalar nada en su ordenador.
+
+| Capítulo | Título | |
+|---|---|---|
+| 1 | NumPy I: el array, la vectorización y el fin de los bucles | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro2/notebooks/Cap01.ipynb) |
+| 2 | NumPy II: broadcasting, agregaciones, máscaras y aleatoriedad | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro2/notebooks/Cap02.ipynb) |
+| 3 | Pandas I: Series, DataFrames, carga y selección | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro2/notebooks/Cap03.ipynb) |
+| 4 | Pandas II: limpieza, transformación, agrupación y combinación | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro2/notebooks/Cap04.ipynb) |
+| 5 | Visualización con Matplotlib y Seaborn | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro2/notebooks/Cap05.ipynb) |
+| 6 | EDA asistido y taller integrador | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro2/notebooks/Cap06.ipynb) |
+
+La primera celda de los cuadernos de los capítulos 3 a 6 instala pandas 2.3.3 —y, en el capítulo 6, también ydata-profiling 4.18.4—, las versiones con las que se verificó el libro. Ejecútela antes que las demás. pip mostrará en rojo un aviso de conflicto con el paquete google-colab: no es un fallo y no hace falta reiniciar la sesión.
+
+Ejecute las celdas en orden: algunas dependen de variables definidas antes. Las salidas que publica el libro aparecen como texto, con el rótulo «Salida en el libro», debajo del código que las produce.
+
+Los datos del tomo están en `libro2/datos/`. Los cuadernos los leen directamente de GitHub; no hace falta descargarlos.
+
+| Archivo | Dónde se usa |
+|---|---|
+| `anscombe.csv` | Capítulo 5, sección 5.6 (cuarteto de Anscombe). |
+| `correlacion_cap5.csv` | Capítulo 5, sección 5.6 (Pearson y Spearman). |
+| `ventas_cap5.csv` | Capítulo 5, secciones 5.2, 5.4, 5.5 y 5.6. |
+| `pedidos_taller.csv` | Capítulo 6, secciones 6.2 y 6.4, y ejercicio Ex-L2-C6-01. |
+| `ventas_limpias_c4.csv` | Ejercicio Ex-L2-C4-02. |
+
+Para trabajar en su propio equipo, use Python 3.13 y ejecute `pip install -r libro2/requirements.txt`: el archivo fija las versiones exactas del libro. Para abrir los cuadernos necesitará además Jupyter. `libro2/entorno_verificacion_2026-10-19.txt` es el registro completo del entorno con el que se verificó.
+
 ## Datos
 
 `datos/` contiene los generadores del conjunto de datos que recorre toda la serie y el
