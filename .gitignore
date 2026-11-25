@@ -12,3 +12,6 @@ Thumbs.db
 # Archivos que generan los cuadernos al ejecutarse
 utilidades.py
 validador.py
+limpieza_pedidos.py
+utilidades_tienda.py
+/pedidos_tienda.csv

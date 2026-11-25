@@ -13,20 +13,30 @@ Un cuaderno por capítulo. Se abren en Google Colab con un clic, sin instalar na
 
 | Capítulo | Título | |
 |---|---|---|
-| 1 | ¿Qué es el Data Science? Panorama, evolución y roles | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap01.ipynb) |
-| 2 | Metodología CRISP-DM y ejemplos del mundo real | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap02.ipynb) |
+| 1 | ¿Qué es la ciencia de datos? Panorama, evolución y roles | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap01.ipynb) |
+| 2 | Los pasos de un proyecto de datos: el método CRISP-DM y ejemplos del mundo real | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap02.ipynb) |
 | 3 | Entorno de trabajo: Python, Google Colab y primeros pasos | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap03.ipynb) |
 | 4 | Operadores, expresiones y lógica de control | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap04.ipynb) |
 | 5 | Estructuras de control: bucles y flujo avanzado | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap05.ipynb) |
-| 6 | Estructuras de datos: listas, tuplas, sets y diccionarios | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap06.ipynb) |
+| 6 | Estructuras de datos: listas, tuplas, conjuntos y diccionarios | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap06.ipynb) |
 | 7 | Funciones, manejo de errores y módulos | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap07.ipynb) |
-| 8 | Taller integrador: Python aplicado a Data Science | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap08.ipynb) |
+| 8 | Taller integrador: Python aplicado a la ciencia de datos | [Abrir en Colab](https://colab.research.google.com/github/josefer76/serie-ciencia-de-datos/blob/main/libro1/notebooks/Cap08.ipynb) |
 
-Los capítulos 1 y 2 son conceptuales y no contienen código ejecutable; sus cuadernos
-existen para mantener la correspondencia con el libro.
+Cada cuaderno trae el código del capítulo y, al final, las soluciones de sus ejercicios
+(34 en todo el tomo). Los capítulos 1 y 2 son conceptuales y no contienen código
+ejecutable; sus cuadernos existen para mantener la correspondencia con el libro.
 
 Ejecute las celdas en orden: algunas dependen de variables definidas antes. Las celdas
-que usan `input()` esperan que usted escriba un valor.
+que usan `input()` esperan que usted escriba un valor. Las salidas que publica el libro
+aparecen como texto, con el rótulo «Salida en el libro», debajo de cada celda.
+
+Los datos del tomo están en `libro1/datos/`. El cuaderno del capítulo 8 los descarga
+directamente de GitHub; no hace falta hacer nada antes.
+
+| Archivo | Dónde se usa |
+|---|---|
+| `pedidos_tienda.csv` | Capítulo 8 (taller integrador) y ejercicios Ex-L1-C8-01 a Ex-L1-C8-03. |
+| `generar_pedidos_tienda.py` | Lo genera. Semilla fija `20261125`. |
 
 ## Tomo 2 — Herramientas Python para Data Science: NumPy, Pandas y Visualización
 

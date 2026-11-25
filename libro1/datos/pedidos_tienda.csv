@@ -1,0 +1,65 @@
+codigo,fecha,cliente,ciudad,categoria,producto,precio,cantidad,devuelto
+P045,2026-02-26,carlos,Barranquilla,ropa,gorra,$ 35.000,1,si
+P036,2026-04-28,sofia,Bogotá,ropa,chaqueta,$ 230.000,3,no
+P045,2026-02-26,carlos,Barranquilla,ropa,gorra,$ 35.000,1,si
+P057,2026-04-27,jorge, BOGOTA,electronica,cargador,$ 45.000,3,no
+P020,2026-04-17,paula,Barranquilla,ropa,chaqueta,$ 230.000,2,no
+P054,2026-04-24,sofia, BOGOTA,hogar,olla,75000,1,no
+P027,2026-06-20,luis,Cartagena,ropa,jean,$ 120.000,2,no
+P016,2026-06-06,andres,CARTAGENA ,hogar,toalla,$ 32.000,4,no
+P013,2026-03-19,ana,bogota ,ropa,medias,$ 15.000,4,si
+P016,2026-06-06,andres,CARTAGENA ,hogar,toalla,$ 32.000,4,no
+P028,2026-02-04,sofia,Cali,ropa,medias,$ 15.000,3,si
+P047,2026-01-24,luis, BOGOTA,hogar,sarten,89000,3,no
+P030,2026-04-05,andres,Cali,hogar,cojin,consultar,1,no
+P002,2026-05-15,andres, CALI,ropa,jean,$ 120.000,1,no
+P024,2026-01-13,andres, CALI,electronica,parlante,$ 210.000,4,no
+P046,2026-06-18,pedro,barranquilla,electronica,cargador,$ 45.000,4,no
+P033,2026-05-21,lucia,Bogotá,hogar,sarten,89000,3,no
+P019,2026-05-02,lucia,Cali,ropa,camisa,45000,4,no
+P018,2026-06-20,felipe,bogota ,electronica,audifonos,-45000,1,no
+P034,2026-04-07,paula,Barranquilla,ropa,jean,$ 120.000,4,no
+P014,2026-01-02,ana,barranquilla,hogar,toalla,32000,2,no
+P041,2026-06-15,paula,Medellín,electronica,cargador,45000,3,no
+P060,2026-03-16,pedro,Bogotá,hogar,cojin,28000,1,no
+P056,2026-06-21,lucia,bogota ,ropa,chaqueta,230000,1,no
+P025,2026-03-21,carlos, CALI,electronica,parlante,210000,2,si
+P006,2026-02-20,felipe,Cartagena,hogar,olla,75000,3,no
+P029,2026-04-24,luis,CARTAGENA ,electronica,parlante,$ 210.000,3,no
+P039,2026-03-04,paula, CALI,ropa,camisa,45000,3,no
+P009,2026-02-03,sofia,bogota ,electronica,parlante,$ 210.000,3,no
+P023,2026-04-01,marta, CALI,ropa,camisa,45000,4,si
+P055,2026-06-12,pedro,Cartagena,ropa,gorra,35000,3,no
+P038,2026-06-27,carlos,CARTAGENA ,hogar,toalla,$ 32.000,1,no
+P001,2026-04-18,diana,Cali,ropa,camisa,$ 45.000,4,si
+P044,2026-04-17,paula,MEDELLIN,electronica,audifonos,$ 150.000,1,no
+P007,2026-01-04,felipe,bogota ,hogar,toalla,,2,no
+P017,2026-06-14,felipe,CARTAGENA ,hogar,cojin,$ 28.000,3,no
+P035,2026-02-02,felipe,CARTAGENA ,ropa,chaqueta,$ 230.000,3,no
+P026,2026-02-22,lucia,CARTAGENA ,ropa,gorra,35000,2,si
+P049,2026-03-25,felipe,CARTAGENA ,hogar,toalla,32000,4,no
+P003,2026-03-24,luis,Barranquilla,ropa,camisa,$ 45.000,3,no
+P051,2026-01-05,ana,Medellín,hogar,olla,75000,2,no
+P053,2026-04-22,diana,Medellín,electronica,parlante,-89000,4,no
+P010,2026-04-25,carlos,CARTAGENA ,ropa,gorra,35000,4,si
+P040,2026-03-25,diana,CARTAGENA ,hogar,cojin,$ 28.000,4,no
+P037,2026-02-20,pedro,Cali,electronica,cargador,$ 45.000,250,no
+P021,2026-02-16,paula,barranquilla,hogar,cojin,$ 28.000,2,no
+P031,2026-05-07,ana,barranquilla,hogar,sarten,$ 89.000,1,si
+P022,2026-06-26,jorge,Cartagena,hogar,toalla,32000,3,no
+P005,2026-06-15,jorge,Barranquilla,hogar,sarten,$ 89.000,2,no
+P043,2026-03-13,andres,CARTAGENA ,electronica,parlante,$ 210.000,3,no
+P008,2026-05-23,andres, CALI,electronica,audifonos,$ 150.000,1,no
+P032,2026-02-15,andres,Cali,electronica,audifonos,$ 150.000,1,no
+P042,2026-03-23,marta,Medellín,hogar,olla,,1,no
+P050,2026-01-12,carlos,bogota ,electronica,audifonos,150000,2,no
+P015,2026-03-19,luis,Barranquilla,ropa,gorra,$ 35.000,2,no
+P012,2026-05-11,andres,Cali,hogar,toalla,$ 32.000,0,no
+P011,2026-01-02,luis,Barranquilla,hogar,toalla,32000,2,no
+P058,2026-02-09,marta, CALI,electronica,audifonos,$ 150.000,3,no
+P052,2026-04-10,sofia,Cali,ropa,chaqueta,230000,1,no
+P004,2026-02-12,andres, CALI,hogar,olla,$ 75.000,1,no
+P048,2026-04-19,lucia,Barranquilla,ropa,chaqueta,$ 230.000,3,si
+P004,2026-02-12,andres, CALI,hogar,olla,$ 75.000,1,no
+P028,2026-02-04,sofia,Cali,ropa,medias,$ 15.000,3,si
+P059,2026-01-24,paula, CALI,hogar,sarten,$ 89.000,3,no
